@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Offline = () => {
      return (
           <div className=" w-full mt-[100px]">
@@ -10,12 +11,7 @@ const Offline = () => {
                     <p>Find experienced doctors across all specialties</p>
                </div>
 
-
-               <div className="w-full flex flex-row justify-center">
-                    <div className=" w-[80%] h-[300px]  flex flex-row ">
-                            
-                    </div>
-               </div>
+             
           </div>
      );
 };

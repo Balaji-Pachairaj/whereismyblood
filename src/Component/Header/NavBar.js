@@ -19,7 +19,7 @@ const NavBar = () => {
                <div className="w-full flex flex-row h-[100px] bg-primary">
                     <div className="  lg:w-1/3 w-2/3  h-full flex flex-row justify-center items-center gap-8">
                          <div className=" w-[80px] h-[80px] ">
-                              <img src={logo} className=" w-full h-full" />
+                              <img src={logo} className=" w-full h-full"  alt="feature" />
                          </div>
                          <h1 className=" text-[#fff] font-bold font-roboto text-[28px]">
                               DOCTO GUIDE

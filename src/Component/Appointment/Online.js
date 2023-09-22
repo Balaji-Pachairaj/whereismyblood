@@ -20,13 +20,17 @@ const Online = () => {
                               <img
                                    src="https://tse3.mm.bing.net/th?id=OIP.EuF8K6ObEaT_HIA_eAj7xQHaHa&pid=Api&P=0&h=180"
                                    className=" w-full h-full"
+                                   alt="feature"
                               />
                          </div>
                          <div className="w-full text-center">
                               <p className=" text-[16px] text-white">
                                    Pregnancy doubts
                               </p>
-                              <Link className="text-[16px] text-[#614BC3] font-bold hover:underline">
+                              <Link
+                                   className="text-[16px] text-[#614BC3] font-bold hover:underline"
+                                   to="onlineconsult"
+                              >
                                    Consult Now
                               </Link>
                          </div>
@@ -36,13 +40,17 @@ const Online = () => {
                               <img
                                    src="https://tse2.mm.bing.net/th?id=OIP.vqbtEf0PEEPfVjNjLFa_agHaGM&pid=Api&P=0&h=180"
                                    className=" w-full h-full"
+                                   alt="feature"
                               />
                          </div>
                          <div className="w-full text-center">
                               <p className=" text-[16px] text-white">
                                    Acne, pimple or skin issues
                               </p>
-                              <Link className="text-[16px] text-[#614BC3] font-bold hover:underline">
+                              <Link
+                                   className="text-[16px] text-[#614BC3] font-bold hover:underline"
+                                   to="onlineconsult"
+                              >
                                    Consult Now
                               </Link>
                          </div>
@@ -52,13 +60,17 @@ const Online = () => {
                               <img
                                    src="https://tse1.mm.bing.net/th?id=OIP.AH57s5CkPYptBPF5atfGugHaE1&pid=Api&P=0&h=180"
                                    className=" w-full h-full"
+                                   alt="feature"
                               />
                          </div>
                          <div className="w-full text-center">
                               <p className=" text-[16px] text-white">
                                    Cold, cough or fever
                               </p>
-                              <Link className="text-[16px] text-[#614BC3] font-bold hover:underline">
+                              <Link
+                                   className="text-[16px] text-[#614BC3] font-bold hover:underline"
+                                   to="onlineconsult"
+                              >
                                    Consult Now
                               </Link>
                          </div>
@@ -68,13 +80,17 @@ const Online = () => {
                               <img
                                    src="https://tse2.mm.bing.net/th?id=OIP.7Oo7KhdrAmqSZslEVF1xwAHaFV&pid=Api&P=0&h=180"
                                    className=" w-full h-full"
+                                   alt="feature"
                               />
                          </div>
                          <div className="w-full text-center">
                               <p className=" text-[16px] text-white">
                                    Child not feeling well
                               </p>
-                              <Link className="text-[16px] text-[#614BC3] font-bold hover:underline">
+                              <Link
+                                   className="text-[16px] text-[#614BC3] font-bold hover:underline"
+                                   to="onlineconsult"
+                              >
                                    Consult Now
                               </Link>
                          </div>
@@ -84,26 +100,27 @@ const Online = () => {
                               <img
                                    src="https://tse3.mm.bing.net/th?id=OIP.tguN_tJTWxx5MyuM8LhbdQAAAA&pid=Api&P=0&h=180"
                                    className=" w-full h-full"
+                                   alt="feature"
                               />
                          </div>
                          <div className="w-full text-center">
                               <p className=" text-[16px] text-white">
                                    Depression or anxiety
                               </p>
-                              <Link className="text-[16px] text-[#614BC3] font-bold hover:underline">
+                              <Link
+                                   className="text-[16px] text-[#614BC3] font-bold hover:underline"
+                                   to="onlineconsult"
+                              >
                                    Consult Now
                               </Link>
                          </div>
                     </div>
                </div>
 
-
                <div className=" w-full flex flex-row justify-center mt-[50px] pb-[50px]">
-
                     <button className=" border-2 border-white hover:border-videoPrimary hover:bg-white hover:text-videoPrimary duration-500 text-white p-2 rounded-lg ">
-                        View All specialists
+                         View All specialists
                     </button>
-
                </div>
           </div>
      );

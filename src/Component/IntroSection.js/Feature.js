@@ -12,6 +12,7 @@ const Feature = () => {
                          <img
                               src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_find_doctors.png"
                               className=" w-full h-full"
+                              alt="feature"
                          />
                     </div>
                     <div className=" w-full h-[110px] p-2 bg-[#fff]">
@@ -31,6 +32,7 @@ const Feature = () => {
                          <img
                               src="https://tse3.mm.bing.net/th?id=OIP.mdrn35gJWGuwpjWJpXX9BwHaIK&pid=Api&P=0&h=180"
                               className=" w-full h-full"
+                              alt="feature"
                          />
                     </div>
                     <div className=" w-full h-[110px] p-2 bg-[#fff]">
@@ -50,14 +52,15 @@ const Feature = () => {
                          <img
                               src="https://tse2.mm.bing.net/th?id=OIP.i2RuhXH195IEsCBWGZK9WgHaE8&pid=Api&P=0&h=180"
                               className=" w-full h-full"
+                              alt="feature"
                          />
                     </div>
                     <div className=" w-full h-[110px] p-2 bg-[#fff]">
                          <h2 className=" text-[20px]  ">
-                              Something medical Emergency 
+                              Something medical Emergency
                          </h2>
                          <p className="mt-2 text-gray-600 text-[14px] text-center">
-                             Book now
+                              Book now
                          </p>
                     </div>
                </Link>
@@ -69,14 +72,15 @@ const Feature = () => {
                          <img
                               src="https://tse4.mm.bing.net/th?id=OIP.xqL7BfJ9y9fdandRTjpA6AHaEK&pid=Api&P=0&h=180"
                               className=" w-full h-full"
+                              alt="feature"
                          />
                     </div>
                     <div className=" w-full h-[110px] p-2 bg-[#fff]">
                          <h2 className=" text-[20px]  ">
-                                Community is in need of you
+                              Community is in need of you
                          </h2>
                          <p className="mt-2 text-gray-600 text-[14px] text-center">
-                             Donate blood
+                              Donate blood
                          </p>
                     </div>
                </Link>
