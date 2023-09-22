@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../../assets/403e684b-862f-444c-a587-8e2ef289ddae.jpg"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -17,7 +17,10 @@ const NavBar = () => {
      return (
           <>
                <div className="w-full flex flex-row h-[100px] bg-primary">
-                    <div className="  lg:w-1/3 w-2/3  h-full flex flex-row justify-center items-center">
+                    <div className="  lg:w-1/3 w-2/3  h-full flex flex-row justify-center items-center gap-8">
+                         <div className=" w-[80px] h-[80px] ">
+                              <img src={logo} className=" w-full h-full" />
+                         </div>
                          <h1 className=" text-[#fff] font-bold font-roboto text-[28px]">
                               DOCTO GUIDE
                          </h1>
@@ -34,13 +37,19 @@ const NavBar = () => {
                               to="/aboutus"
                               className="text-[#fff] font-bold font-montserrat text-[14px] hover:cursor-pointer  hover:text-differenat  hover:scale-105 duration-50"
                          >
-                              About Us
+                              Find Blood
                          </Link>
                          <Link
                               to="/aboutus"
                               className="text-[#fff] font-bold font-montserrat text-[14px] hover:cursor-pointer  hover:text-differenat  hover:scale-105 duration-50"
                          >
-                              Find Blood
+                              Became a Blood donor
+                         </Link>
+                         <Link
+                              to="/aboutus"
+                              className="text-[#fff] font-bold font-montserrat text-[14px] hover:cursor-pointer  hover:text-differenat  hover:scale-105 duration-50"
+                         >
+                              About Us
                          </Link>
                          <div className=" flex flex-row gap-3">
                               <Link
@@ -91,6 +100,14 @@ const NavBar = () => {
                                    className="text-black font-bold font-montserrat text-[14px] hover:cursor-pointer  hover:text-differenat  hover:underline duration-50"
                               >
                                    Find Blood
+                              </Link>
+                         </div>
+                         <div className=" border-b-2 border-[#B4B4B3] ps-4 w-full h-[60px] bg-opacity-40 bg-[#B4B4B3] flex flex-col justify-center">
+                              <Link
+                                   to="/becomeadonor"
+                                   className="text-black font-bold font-montserrat text-[14px] hover:cursor-pointer  hover:text-differenat  hover:underline duration-50"
+                              >
+                                   Become a Blood donor
                               </Link>
                          </div>
                          <div className=" border-b-2 border-[#B4B4B3] ps-4 w-full h-[60px] bg-opacity-40 bg-[#B4B4B3] flex flex-col justify-center">

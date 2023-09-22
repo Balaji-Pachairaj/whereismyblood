@@ -8,9 +8,12 @@ module.exports = {
                     seconday: "#C70039",
                     thirdary: "#1F4D36",
                     differenat: "#F8DE22",
+
+
+                    videoPrimary : "#33BBC5"
                },
           },
-
+  
           fontFamily: {
                roboto: ["Roboto", "Helvetica", "Arial", "sans-serif"],
                montserrat: ["Montserrat", "Helvetica", "Arial", "sans-serif"],

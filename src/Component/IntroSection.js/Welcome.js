@@ -1,9 +1,9 @@
 import React from "react";
-import doctor from "../../assets/DoctorImage.jpg";
+
 
 const Welcome = () => {
      return (
-          <div className="mt-12 w-full flex lg:flex-row flex-col justify-center gap-8">
+          <div className="lg:mt-12 mt-2 w-full flex lg:flex-row flex-col justify-center gap-8">
                <div className=" lg:w-[40%] w-[100%]  h-full  flex flex-col items-start">
                     <div className="  flex flex-row justify-center w-full lg:p-0 ps-4 pe-4">
                          <h1 className="border-b-2 border-black text-thirdary lg:text-[72px] md:text-[62px] sm:text-[52px] text-[42px]   font-montserrat font-bold  ">
@@ -79,7 +79,8 @@ const Welcome = () => {
                     <div className=" lg:w-[100%] w-[80%] md:h-[400px] sm:h-[300px] h-[250px] border-2 rounded-xl border-transparent">
                          <img
                               src="https://tse3.mm.bing.net/th?id=OIP.fm2Tm3sHLRY0Ba4jbDtHEAHaE8&pid=Api&P=0&h=180"
-                              className=" w-full h-full"
+                              className=" w-full h-full "
+                              alt="property"
                          />
                     </div>
                </div>
