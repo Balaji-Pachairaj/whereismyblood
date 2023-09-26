@@ -22,13 +22,13 @@ const NavBar = () => {
                               <img src={logo} className=" w-full h-full"  alt="feature" />
                          </div>
                          <h1 className=" text-[#fff] font-bold font-roboto text-[28px]">
-                              DOCTO GUIDE
+                              Health  opti Pro
                          </h1>
                     </div>
 
                     <div className=" lg:w-2/3  h-full hidden lg:flex flex-row  justify-evenly items-center">
                          <Link
-                              to="/ourotherservices"
+                              to="/onlineconsult"
                               className="text-[#fff] font-bold font-montserrat text-[14px] hover:cursor-pointer  hover:text-differenat  hover:scale-105 duration-50"
                          >
                               Book an Appointment
@@ -40,7 +40,7 @@ const NavBar = () => {
                               Find Blood
                          </Link>
                          <Link
-                              to="/aboutus"
+                              to="/becomeablooddonor"
                               className="text-[#fff] font-bold font-montserrat text-[14px] hover:cursor-pointer  hover:text-differenat  hover:scale-105 duration-50"
                          >
                               Became a Blood donor

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Feature = () => {
      return (
-          <div className=" mt-12 w-full  flex flex-row justify-evenly flex-wrap  gap-y-8">
+          <div className=" mt-[100px] w-full  flex flex-row justify-evenly flex-wrap  gap-y-8">
                <Link
                     to="/bookanappointment"
                     className=" w-[200px] h-[290px] rounded-lg overflow-hidden bg-slate-500  border-1 shadow-featureboxshadow hover:-translate-y-3 duration-200"

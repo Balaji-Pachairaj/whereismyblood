@@ -3,7 +3,7 @@ import React from "react";
 
 const Welcome = () => {
      return (
-          <div className="lg:mt-12 mt-2 w-full flex lg:flex-row flex-col justify-center gap-8">
+          <div className="lg:mt-[60px] mt-4 w-full flex lg:flex-row flex-col justify-center gap-8">
                <div className=" lg:w-[40%] w-[100%]  h-full  flex flex-col items-start">
                     <div className="  flex flex-row justify-center w-full lg:p-0 ps-4 pe-4">
                          <h1 className="border-b-2 border-black text-thirdary lg:text-[72px] md:text-[62px] sm:text-[52px] text-[42px]   font-montserrat font-bold  ">

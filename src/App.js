@@ -3,6 +3,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Pages/Home";
 import Root from "./Pages/Root";
 import Consult from "./Pages/Consult";
+import BecomeABloodDonor from "./Pages/BecomeABloodDonor";
 
 const router = createBrowserRouter([
      {
@@ -11,6 +12,7 @@ const router = createBrowserRouter([
           children: [
                { index: true, element: <Home /> },
                { path: "onlineconsult", element: <Consult /> },
+               { path: "becomeablooddonor", element: <BecomeABloodDonor /> },
           ],
      },
 ]);
