@@ -1,3 +1,12 @@
+Where is my blood -> is our smart india hackthon project which help people to find blood 
+
+  -> User can search for blood donor who has same blood and nearby location 
+  -> We will collect blood donor information from social clubs, NCC club and other social activist people.
+  -> Application will show user who are nearby location 
+  -> User can send notification or sms or even phone to nearby blood donors.
+  
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
